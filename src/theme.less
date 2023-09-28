@@ -1,0 +1,78 @@
+@import "global.less";
+@import (reference) "constant.less";
+
+:global {
+  ._import {
+
+  }
+  .icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+  .Active {
+    color: @ActiveColor-1;
+  }
+  .Active2 {
+    background-color: @ActiveColor-2;
+  }
+
+  .NormalFontSize {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .SmallFontSize {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .NormalBlock {
+    .NormalFontSize;
+    padding: 5px 6px;
+    background-color: @BgColor-1;
+  }
+
+  .NormalBlock:hover {
+    background-color: @ActiveColor-1;
+  }
+
+  .NormalBackgroundColor {
+    background-color: @BgColor-1;
+  }
+
+  .UIIcon {
+    height: 24px;
+    line-height: 24px;
+    margin: 0 5px;
+  }
+
+  .IconBlue {
+    color: @Color6;
+  }
+
+  .VerticalBar {
+    .SmallFontSize;
+    .W-21;
+    background-color: @BgColor-1;
+    .RightBorder-1;
+  }
+
+  .VerticalBar .Item{
+   .P_Style2;
+  }
+
+  .VerticalBarContent{
+    width: 140px;
+    flex-basis: 140px;
+    flex-shrink: 0;
+    flex-grow: 0;
+  }
+
+  .RightBorder-1 {
+    .RightBorder-1;
+  }
+}
+
+
